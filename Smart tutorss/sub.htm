@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="add.css">
+        <p>first j/s programe</p>
+    <script type="text/javascript">
+         function add()
+        {
+            var x,y,z;
+            x=frm.nm1.value
+            y=frm.nm2.value
+            z=eval(x)+eval(y)
+            frm.res.value=z;
+        }
+        function sub()
+        {
+            var x,y,z;
+            x=frm.nm1.value
+            y=frm.nm2.value
+            z=eval(x)-eval(y)
+            frm.res.value=z;
+        }
+        function mul()
+        {
+            var x,y,z;
+            x=frm.nm1.value
+            y=frm.nm2.value
+            z=eval(x)*eval(y)
+            frm.res.value=z;
+        }
+        function div()
+        {
+            var x,y,z;
+            x=frm.nm1.value
+            y=frm.nm2.value
+            z=eval(x)/eval(y)
+            frm.res.value=z;
+        }
+
+        function average()
+        {
+            var x,y,z;
+            x=frm.nm1.value;
+            y=frm.nm2.value;
+            z=eval(x)+eval(y)
+            frm.res.value=z/2;
+        }
+
+    </script>
+    </head>
+    <body>
+        <div>
+            <h1>calculate</h1>
+        <form name="frm">
+
+            enter 1<sup>st</sup> num
+            <input id="n1" type="text" name="nm1"> <br><br>
+            enter 2<sup>nd</sup> num
+            <input id="n2" type="text" name="nm2"> <br><br>
+            result     <input id="n3" type="text" name="res">
+            <br><br>
+            <input  type="button" value="add" onclick=add()>
+            <input  type="button" value="sub" onclick=sub()>
+            <input  type="button" value="mull" onclick=mul()>
+            <input  type="button" value="div" onclick=div()>
+            <input  type="button" value="average" onclick=average()>
+           
+        </div>
+            </form>
+            </body>
+            </html>
+    </body>
+    

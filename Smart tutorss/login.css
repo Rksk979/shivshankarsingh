@@ -1,0 +1,142 @@
+#main{
+    background-color
+    height: 40px;
+    width: 100%;
+    font-weight: 800;
+    
+}
+div{
+    display: inline-block;
+}
+img
+#n1{
+    width: 20px;
+font-sizje: 2em;
+margin-left: 50px;
+background-colr:black;
+colr: red;
+font-weigt: 900;
+border-radis: 50px;
+bordr:2px solid white;
+tet-align: center;
+}
+#n2{
+    margin-left: 150px;
+
+}
+#g{
+    text-decoration: none;
+    color: black;
+}
+#n3{
+    margin-left: 25px;
+}
+#n4{
+    margin-left: 25px;
+}
+#n5{
+    margin-left: 25px;
+}
+#n6{
+    margin-left: 25px;
+}
+#n7{
+    margin-left: 25px;
+}
+#n8{
+    margin-left: 100px;
+}
+#n9{
+    margin-left: px;
+   
+    width: 200px;
+    
+
+}
+#n10{
+    margin-left:auto;
+    width: 00px;
+    display: inline-block;
+
+}
+
+
+#resources{
+    font-weight: 900;
+    border: 0;
+}
+
+body{
+    background-image: url("opt1.jpg");
+    background-size: cover;
+}
+
+#content{
+    font-size: 5em;
+    margin-top: 20%;
+    margin-left: 6%;
+}
+#content2{
+    margin-top: 10%;
+    font-size: 2em;
+    color: white;
+}
+
+input{
+    height: 40px;
+    width: 150px;
+    background-color:black;
+    color: red;
+    font-weight: 900;
+    border-radius: 50px;
+    border:2px solid red;
+    display: inline-block;
+
+    
+    
+    
+}
+#submit{
+    background-color: rgb(12, 245, 229);
+    height: 40px;
+    width: 10%;
+    margin-top:50px;
+    
+
+}
+#bot{
+    height: 60px;
+    width: 100%;
+    background-color: gray;
+    margin-top: 300px;
+    text-align: center;
+}
+#ok{
+    margin-top: 12px;
+    background-color:rgb(12, 245, 229) ;
+    width: 200px;
+}
+.fa-magnifying-glass{
+
+    color: red;
+    background-color: white;
+    position: relative;
+    text-align: center;
+}
+select{
+    color:rgb(21, 0, 255);
+    background-color:rgb(135, 130, 130);
+    height: 25px;
+    border-radius: 50px;
+}
+#login{
+    background-color: yellow;
+    height: 400px;
+    width: 400px;
+    display: flexbox;
+}
+#name{
+    background-color: red;
+    height: 50px;
+    width: 250px;
+}

@@ -1,0 +1,273 @@
+body{
+    background-image: url(project33.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: ;
+    color: aqua;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.logo{
+    height: 10px;
+    width: 10px;
+}
+ul{
+    list-style-type: none;
+}
+
+select{
+    background-color: rgba(44, 43, 40, 0);
+    color: white;
+    border: transparent;
+    font-size: large;
+    padding-left: 40px;
+    text-align: center;
+    
+    
+}
+option{
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+}
+.in{
+    display: flex;
+  
+    width: 250px;
+    text-align: center;
+    margin-left: 1100px;
+    background-color: rgb(245, 245, 220);
+    border-radius: px;
+}
+
+.in2{
+    margin-left: 25px;
+    borde: 1px solid rgb(35, 165, 234);
+    margin-top: 50px;
+    
+}
+.innn{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.in3{
+    margin-left: 20px;
+    margin-top: 20px;
+    borde: 1px solid rgb(35, 165, 234);
+}
+#img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#input1{
+    width: 140px;
+    
+}
+.inn{    display: flex;
+  
+    width: 250px;
+    text-align: center;
+    margin-left: 1100px;
+    background-color: beige;}
+    .content{
+        display: flex;
+  
+    width: 250px;
+    text-align: center;
+    margin-left: 1100px;
+    background-color: beige;
+    }
+    .content2{
+        display: flex;
+  
+    width: 250px;
+    text-align: center;
+    margin-left: 1100px;
+    background-color: beige;
+    }
+    .content3{
+        display: flex;
+  
+    width: 250px;
+    text-align: center;
+    margin-left: 1100px;
+    background-color: beige;
+    }
+    .content4{
+        display: flex;
+  
+    width: 250px;
+    text-align: center;
+    margin-left: 1100px;
+    background-color: beige;
+    padding-bottom: 50px;
+    }
+    #g{
+        display: flex;
+  
+    width: 250px;
+    text-align:start;
+    margin-left: 1122px;
+    margin-top: 50px;
+    background-color: beige;
+    padding-top: 15px;
+    padding-left: 50px;
+    height: ;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+    background-color: blue;
+    font-size: 1.5em;
+    }
+    p{
+        font-weight: bold;
+        font-size: x-small;
+        border: 0;
+    }
+    #p{
+        color: green;
+        border: 1px solid ;
+        width: 100px;
+        align-self: center;
+        margin-left: 25px;
+        font-size: 2em;
+        background-color: ;
+    }
+    .content6{
+    
+        font-size: 3em;
+        color: white;
+    }
+    .bottom{
+        margin-top: 30px;
+        background-color: gray;
+        display: flex;
+    }
+    #p{
+        font-size: -3;
+    }
+    .bot{
+        background-color:black;
+        color: red;
+        border: 2px solid red;
+        border-radius: 50px;
+        height: 35px;
+        width: 200px;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 5px;
+    }
+    .bot2{
+    
+        background-color:;
+        color:black;
+        border-radius: 50px;
+        height: 35px;
+        width: 150px;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 5px;
+    }
+    .bot3{
+        color:black;
+        border-radius: 50px;
+        height: 35px;
+        width: 150px;
+        text-align: center;
+        font-size: 2em;
+        margin-top: 5px;
+    }
+    .bot4{
+        margin-left:40px;
+        margin-top: 10px;
+        
+    }
+    .bot5{
+        margin-left:40px;
+        margin-top: 10px;
+        
+    }
+    .bot6{
+        margin-left:40px;
+        margin-top: 10px;
+        
+    }
+    .bot7{
+        margin-left:40px;
+        margin-top: 10px;
+        
+    }
+    .aa{
+        text-decoration: none;
+        color: red;
+        background: black;
+        font-size: 25px;
+        border-radius: 0;
+    
+    }
+    .footer{
+    
+        display: flex;
+        justify-content: center;
+        align-items:end;
+    }
+    a{
+        height: 50px;
+        width: 50px;
+        background-color: rgb(224, 217, 217);
+        border-radius: 50%;
+        text-align: center;
+        margin: 10px;
+        box-shadow: 1px 4px 2px 2px rgb(92, 86, 86);
+        line-height: 4;
+    }
+    a i{
+        font-size: 20px;
+        transition: all 0.3s linear;
+    }
+    a:hover i{
+        transform: scale(1.3);
+    }
+    .fa-instagram{
+        color: red;
+    }
+    .fa-whatsapp{
+    
+        color: green;
+    }
+    .fa-comment{
+        color: black;
+    }
+    .fa-square-facebook{
+        color: blue;
+    }
+    .p{
+        font-size: 20px;
+    }
+    .p2{
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+        background-color: red;
+        width: 160px;
+        text-align: center;
+        border-radius: 50px
+    }
+    .about{
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        
+    }
+    footer{
+        width: 100%;
+        background-color: gray;
+        height: 80px;
+        align-items: center;
+    }

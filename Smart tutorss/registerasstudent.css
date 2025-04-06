@@ -1,0 +1,548 @@
+a:roo {
+    --color-primary: #0073ff;
+    --color-white:#e9e9e9;
+    --color-black:#141d28
+    --color-black-1:#212b38
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #student{
+        color: white;
+    }
+    body{
+        font: 1em sans-serif;
+        background-color: rgb(12, 26, 27);
+    }
+    
+    .nav{
+    
+        display:flex;
+        background-color: rgb(3, 3, 16);
+        height: 80px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5%;
+        position: fixe;
+    }
+    .nav ul{
+        list-style: none;
+        display: flex;
+        
+    }
+    .nav ul li{
+        padding: 10px 30px;
+        position: relative;
+    }
+    .nav ul li a{
+        color: azure;
+        text-decoration: none;
+        font-size: 20px;
+        transition: all 0.3s;
+    
+    }
+    .nav ul li a:hover{
+        color: blue;
+    }
+    
+    .fa-user{
+        color: white;
+
+        font-size: 30px;
+    }
+    #navname{
+        display: flex;
+        margin-top: 50px;
+    }
+    #navname1{
+        color: white;
+    }
+    #navname2{
+        color:red;
+    }
+    .logo{
+        display: flex;
+    }
+    
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Fade animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* Dots/bullets/indicators */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+.first{
+    background-image: url(try2.jpg);
+    background-size: cover;
+}
+.mainlogcon{
+    display: flex;
+    
+    margin-left: 260px;
+}
+.mainlogcon-2{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 260px;
+}
+
+.mainlogcon2{
+    height: 500px;
+    width: 500px;
+    background-color:rgb(49, 14, 31);
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    color: white;
+    
+   
+}
+.maincon{
+    font-size: 40px ;
+    padding:20px;
+
+}
+
+#mainlogcon2{
+  
+}
+
+.mainlog{
+    height: 500px;
+    width: 500px;
+    background-color:aqua;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    
+}
+
+
+.mainlogcon3{
+    height: 500px;
+    width: 500px;
+    background-color:white;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    color:rgb(49, 14, 31) ;
+    font-size: 40px;
+    padding: 20px;
+}
+.mainlogcon4{
+    height: 500px;
+    width: 500px;
+    background-color:white;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    color:rgb(49, 14, 31) ;
+    font-size: 40px;
+    padding: 20px;
+    
+}
+.mainlogcon5{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(49, 14, 31);
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    color:white ;
+    font-size: 40px;
+    padding: 20px;
+    
+}
+.circle{
+    height: 200px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: rgb(44, 48, 56);
+    margin-left: 500px;
+    border: 2px solid black;
+}
+.mainconfeed{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+#textarea{
+    background-color: white;
+    color: black ;
+    text-align: center;
+    align-items: center;
+}
+#textsubmit{
+    color: white;
+    background-color:rgb(49, 14, 31) ;
+}
+
+
+
+
+    .footer1{
+
+        height: 50%;
+        width: 100%;
+        background-image: url(bottombb.jpg);
+        background-size: cover;
+        
+    }
+    .FOOTERP1{
+        color: whitesmoke;
+        font-size: 25PX;
+        text-align: CENTER;
+        line-height: 50px;
+        padding-top: 200px;
+        padding-bottom: 100px;
+        font-weight: bold;
+        font-family: sans-serif;
+    
+    }
+    .FOOTERP2{
+        color: WHITE;
+        background-color: rgb(7, 71, 50);
+        height: 40PX;
+        font-size: 25PX;
+        padding: 10px;
+        width: 100PX;
+        margin-left: 600px;
+        border-radius: 10px;
+        
+    }
+    .footer2{
+        display: flex;
+        background-color: black;
+        position:relative;
+    }
+    .logoname{
+        margin-left:10 px;
+        display: flex;
+    }
+    .footerabout{
+        display:list-item;
+        margin-left: 150px;
+    }
+    .FOOTERNAME{
+        color: white;
+        
+    }
+    .FOOTERNAME2{
+        color: red; 
+        
+    }
+    .service1{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+    
+    }
+    .service2{
+        color: rgb(34, 90, 83);
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .service3{
+        color:  rgb(34, 90, 83);
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .footerlink{
+    display: list-item;
+    margin-left: 150px;
+    }
+    .footercontactmain{
+        color: white;
+        font-size: 40px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .footerhome{
+        color:  rgb(34, 90, 83);
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .footerabout1{
+        color:  rgb(34, 90, 83);
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .footerfaq{
+        color:  rgb(34, 90, 83);
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .footercontact{
+        color:  rgb(34, 90, 83);
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .icon{
+        display: flex;
+        gap: 10px;
+        margin-left: 150px;
+        margin-top: 100px;
+    }
+    .fa-instagram{
+        color: white;
+        font-size: 40px;
+    }
+    .fa-facebook{
+        color: white;
+        background-color: #0073ff;
+        font-size: 40px;
+    }
+    .fa-square-whatsapp{
+        color: rgb(33, 182, 86);
+        background-color:white;
+        font-size: 40px;
+    }
+    .fa-square-twitter{
+        color: white;
+        background-color:black;
+        font-size: 40px;
+    }
+    .fa-square-youtube{
+        color: white;
+        background-color:rgb(236, 18, 18);
+        font-size: 40px;
+    }
+    .k{
+        padding-bottom: 30px;
+    }
+    .drp1{
+        position: relative;
+        display: inline-block;
+    }
+    .btn{
+        background-color: transparent;
+        color: white;
+        padding: 16px;
+        font-size: 25px;
+        border: none;
+    }
+    .drpcontent{
+        display: none;
+        position: absolute;
+        background-color: rgb(60, 137, 111);
+        min-width: 160px;
+        box-shadow: opx 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: index 1;
+    }
+    .drpcontent a{
+        color:white ;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    .drpcontent a:hover{
+        background-color: red;
+    }
+    select{
+        background-color: black;
+        color: white;
+        border: 0;
+        font-size: 20px;
+    }
+    {box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color:transparent;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixe;
+  bottom: 23px;
+  right: 28px;
+  width: 280px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixe;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  border: 0;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: rgb(175, 147, 147);
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+    background-image: url(try2.jpg);
+   background-size: cover;
+  color: red;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  border-radius: 15px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.popback{
+    background-image: url(try2.jpg);
+    padding-left: 700px;
+}
+.gender{
+    font-weight: bold;
+}
+#gender{
+    background-color: white;
+    outline-color: #0073ff;
+    color: black;
+    font-size: 15px;
+}
+#option{
+    color: black;
+    font-size: 10px;
+
+}
+.recent{
+    font-weight: bold;
+}
+.age{
+    font-weight: bold;
+    
+}
+.mail{
+    font-weight: bold;
+}
+.contact{
+    font-weight: bold;
+}
+.address{
+    font-weight: bold;
+}
+.ressume{
+    font-weight: bold;
+}
+.location{
+    font-weight: bold;
+}
+.terms{
+    font-weight: bold;
+}
+.conditions{
+    font-size: 10px;
+}
+.Additional{
+    font-weight: bold;
+}
+    /* Dropdown Button */
+    .dropbtn {
+        background-color:transparent;
+        color: white;
+        paddin: 16px;
+        font-size: 16px;
+        border: none;
+      }
+      
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+        position: relative;
+        display: inline-block;
+       
+      }
+      
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: rgb(13, 30, 34);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(36, 26, 26, 0.2);
+        z-index: 1;
+    
+       
+      }
+      
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: #ddd;}
+      
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {display: block;}
+      
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdown:hover .dropbtn {background-color:black;}

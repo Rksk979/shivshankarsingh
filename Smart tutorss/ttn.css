@@ -1,0 +1,17 @@
+.main{
+    width: 400;
+    height: 70;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 64px;
+}
+ul li a{
+text-decoration: none;
+}

@@ -1,0 +1,287 @@
+body{
+    background-image: url(opt1.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    position: fixed;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: ;
+    color: aqua;
+    margin-right: 25px;
+    text-decoration: none;
+}
+.logo{
+    height: 10px;
+    width: 10px;
+}
+ul{
+    list-style-type: none;
+}
+
+select{
+    background-color: rgba(44, 43, 40, 0);
+    color: rgb(53, 9, 9);
+    border: transparent;
+    font-size: large;
+    padding-left: 40px;
+    text-align: center;
+    
+    
+}
+option{
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+}
+.content{
+    background-color: white;
+    color: black;
+    justify-content:initial;
+    margin-top:60%;
+    height: 50px;
+    text-align:;
+    font-size: 2em;
+    width: 900px;
+    margin-left: 500px;
+    
+
+}
+input{
+    height: 30px;
+    width: 400px;
+}
+#but{
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+    color: white;
+    background-color: orangered;
+    border: transparent;
+    font-weight: 900;
+}
+
+.clee{
+    background-color: white;
+    color:black;
+    border: transparent;
+    font-size: large;
+    padding-left: 40px;
+    text-align: center;
+    border: 1px solid black;
+}
+.cle{
+    background-color: white;
+    color:navy;
+    border: transparent;
+    font-size: large;
+    padding-left: 40px;
+    text-align: center;
+    border: 1px ridge black;
+}
+.opt{
+    background-color: white;
+    color: black;
+    border: grey;
+}
+.content2{
+    margin-top: 100px;
+    font-size: 4em;
+}
+.content3{
+    color: white;
+    margin-left: 800px;
+    font-size: 2rem;
+}
+.bottom{
+    background-color: gray;
+    display: flex;
+}
+#p{
+    font-size: -3;
+}
+.bot{
+    background-color:black;
+    color: red;
+    border: 2px solid red;
+    border-radius: 50px;
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5px;
+}
+.bot2{
+
+    background-color:;
+    color:black;
+    border-radius: 50px;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5px;
+}
+.bot3{
+    color:black;
+    border-radius: 50px;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5px;
+}
+.bot4{
+    margin-left:40px;
+    margin-top: 10px;
+    
+}
+.bot5{
+    margin-left:40px;
+    margin-top: 10px;
+    
+}
+.bot6{
+    margin-left:40px;
+    margin-top: 10px;
+    
+}
+.bot7{
+    margin-left:40px;
+    margin-top: 10px;
+    
+}
+ul li ul.dropdown li{
+    display: block;
+}
+.aa{
+    text-decoration: none;
+    color: red;
+    background: black;
+    font-size: 25px;
+    border-radius: 0;
+
+}
+.footer{
+
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+a{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(224, 217, 217);
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px rgb(92, 86, 86);
+    line-height: 4;
+}
+a i{
+    font-size: 20px;
+    transition: all 0.3s linear;
+}
+a:hover i{
+    transform: scale(1.3);
+}
+.fa-instagram{
+    color: red;
+}
+.fa-whatsapp{
+
+    color: green;
+}
+.fa-comment{
+    color: black;
+}
+.fa-square-facebook{
+    color: blue;
+}
+.p{
+    font-size: 20px;
+}
+.p2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    width: 160px;
+    text-align: center;
+    border-radius: 50px
+}
+.about{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+footer{
+    width: 100%;
+    background-color: gray;
+    height: 80px;
+    align-items: center;
+}
+
+.mar{
+    height: 300px;
+
+}
+.slider{
+    height: 400px;
+    width: 100%;
+    background-image: url(tui.jpg);
+    background-size: 100% 100%;
+    animation-name: rahul;
+
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+}
+@keyframes rahul{
+    0%{ background-image: url(tei2.png);}
+    35%{ background-image: url(tui.jpg);}
+    75%{ background-image: url(s.png);}
+}
+.new{
+    display: flex;
+    gap: 200px;
+    width: 100;
+    height: 180px;
+    align-items: center;
+    background-color: darkslategrey;
+    padding-bottom:200px ;
+
+}
+#new1{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(224, 217, 217);
+
+
+    text-align: center;
+    margin: 10px;
+
+    line-height: ;
+    align-items: right;
+    margin-left: 200px;
+   
+}
+#anc{
+    height: 0;
+    width: 0;
+    background-color: transparent);
+    border-radius: 0;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 0px 0px 0px 0px rgb(00, 00, 00);
+    line-height: 4;
+    
+}
+#anc:hover #new1{
+    transform: scale(1.3);
+
+}

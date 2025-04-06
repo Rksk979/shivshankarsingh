@@ -1,0 +1,53 @@
+.footer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(224, 217, 217);
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 4px 2px 2px rgb(92, 86, 86);
+    line-height: 8;
+}
+a i{
+    font-size: 50px;
+    transition: all 0.3s linear;
+}
+a:hover i{
+    transform: scale(1.4);
+}
+.fa-instagram{
+    color: red;
+}
+.fa-whatsapp{
+
+    color: green;
+}
+.fa-comment{
+    color: black;
+}
+.fa-square-facebook{
+    color: blue;
+}
+.p{
+    font-size: 20px;
+}
+.p2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    width: 160px;
+    text-align: center;
+    border-radius: 50px
+}
+.about{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
